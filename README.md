@@ -3,6 +3,10 @@ Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logi
 
 The completed code will come soon.
 
+## Examples
+### To train the agent in ZoneEnv with Transformer
+`python train_agent.py`
+
 ## Office Gridworld
 <p align="center">
     <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/office_env.png">
