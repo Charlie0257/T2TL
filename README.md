@@ -3,6 +3,17 @@ Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logi
 
 The completed code will come soon.
 
+## Installation instructions
+
+We recommend using Python 3.7 to run this code.
+
+1. `pip install -r requirements.txt`
+2. Install [Spot-2.9](https://spot.lrde.epita.fr/install.html)
+    - Follow the installation instructions at the link. Spot should be installed in `/usr/local/lib/python3.7/site-packages/spot`. This step usually takes around 20 mins.
+3. To train the agent in ZoneEnv, you will need Mujoco installed, as well as an [active license](http://www.mujoco.org/index.html). 
+    - `pip install mujoco-py==2.0.2.9`
+    - `pip install -e src/envs/safety/safety-gym/`
+
 ## Examples
 ### To train the agent in ZoneEnv with Transformer
 `python train_agent.py`
