@@ -39,8 +39,6 @@ We recommend using Python 3.7 to run this code.
     <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/dim_comparison_all.png">
 </p>
 
-## Comments
-Our codebase in ZoneEnv builds heavily on LTL2Action and https://github.com/LTL2Action/LTL2Action. Thanks for open-sourcing!
 
 ## Citation
 
