@@ -1,7 +1,7 @@
 # T2TL
-Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning (Under-review)
+Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning (**Under-review**)
 
-The completed code will come soon.
+If any questions, feel free to contact: zcharlie0257@gmail.com.
 
 ## Installation instructions
 
@@ -15,8 +15,9 @@ We recommend using Python 3.7 to run this code.
     - `pip install -e src/envs/safety/safety-gym/`
 
 ## Examples
-### To train the agent in ZoneEnv with Transformer
-`python train_agent.py`
+1. `cd dis_src/`
+2. `python run_experiments.py  --algorithm T1TL`
+3. `python run_experiments.py  --algorithm T2TL`
 
 ## Office Gridworld
 <p align="center">
