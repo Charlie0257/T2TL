@@ -5,11 +5,12 @@ If any questions, feel free to contact: zcharlie0257@gmail.com.
 
 ## Installation instructions
 
-We recommend using Python 3.7 to run this code.
+We recommend using Python 3.7 or Python 3.8 to run this code.
 
 1. `pip install -r requirements.txt`
-2. Install [Spot-2.9](https://spot.lrde.epita.fr/install.html)
+2. Install [Spot-2.9](https://spot.lrde.epita.fr/install.html), there are many ways:
     - Follow the installation instructions at the link. Spot should be installed in `/usr/local/lib/python3.7/site-packages/spot`. This step usually takes around 20 mins.
+    - `conda install -c conda-forge spot` (Note that this command needs Python is 3.8+)
 3. To train the agent in ZoneEnv, you will need Mujoco installed, as well as an [active license](http://www.mujoco.org/index.html). 
     - `pip install mujoco-py==2.0.2.9`
     - `pip install -e src/envs/safety/safety-gym/`
