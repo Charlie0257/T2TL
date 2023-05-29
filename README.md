@@ -7,13 +7,21 @@ If any questions, feel free to contact: zcharlie0257@gmail.com.
 
 We recommend using Python 3.7 or Python 3.8 to run this code.
 
-1. `pip install -r requirements.txt`
-2. Install [Spot-2.9](https://spot.lrde.epita.fr/install.html), there are many ways:
-    - Follow the installation instructions at the link. Spot should be installed in `/usr/local/lib/python3.7/site-packages/spot`. This step usually takes around 20 mins.
-    - `conda install -c conda-forge spot` (Note that this command needs Python is 3.8+)
+1. `pip install -r requirements.txt` or `conda env create -f conda_env.yml` (Note that .yml is only effective for Python 3.7)
+2. Install [Spot-2.9](https://spot.lrde.epita.fr/install.html):
+    - For Python 3.7, follow the installation instructions at the link. Spot should be installed in `/usr/local/lib/python3.7/site-packages/spot`. This step usually takes around 20 mins.
+    - For Python 3.8+, `conda install -c conda-forge spot` (Note that this command needs Python is 3.8+)
 3. To train the agent in ZoneEnv, you will need Mujoco installed, as well as an [active license](http://www.mujoco.org/index.html). 
     - `pip install mujoco-py==2.0.2.9`
     - `pip install -e src/envs/safety/safety-gym/`
+    - `pip install numpy==1.21.5`, if Python 3.7 or `pip install numpy==1.23`, if Python 3.8
+4. Install dgl:
+    - If you only reproduce the results from Transformer-encoded method, just `pip install dgl-cu113 -f https://data.dgl.ai/wheels/repo.html`
+    - If you also want to reproduce the results from GNN-encoded method, we found the dgl team has not maintained dgl_cu111==0.7a210520. You can install it as follows:
+        - `cd src/utils/`
+        - `mv -f dgl/ /home/{your_workspace_name}/anaconda3/envs/T2TL/lib/python3.7/site-packages/`
+        - `mv -f dgl_cu111-0.7a210520.dist-info/ /home/{your_workspace_name}/anaconda3/envs/T2TL/lib/python3.7/site-packages/`
+        
 
 ## Examples
 1. `cd dis_src/`
