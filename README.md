@@ -16,8 +16,18 @@ We recommend using Python 3.7 to run this code.
 
 ## Examples
 1. `cd dis_src/`
-2. `python run_experiments.py  --algorithm T1TL`
-3. `python run_experiments.py  --algorithm T2TL`
+2. To train the agent with GNN method, run:
+    - `python T1TL.py  --gnn RGCN_8x32_ROOT_SHARED`
+3. To train the agent with  pretrained GNN method, run:
+    - `python train_PreGNNAgent.py`
+4. To train the agent with T1TL method, run:
+    - `python T1TL.py`
+5. To train the agent with pretrained T1TL method, run:
+    - `python T1TL_pretrain.py`
+6. To train the agent with T2TL method, run:
+    - `python T2TL.py`
+7. To train the agent with pretrained T2TL method, run:
+    - `python T2TL_pretrain..py`
 
 ## Office Gridworld
 <p align="center">
