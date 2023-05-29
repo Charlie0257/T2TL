@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+safety_gym/__init__.py
+safety_gym/random_agent.py
+safety_gym.egg-info/PKG-INFO
+safety_gym.egg-info/SOURCES.txt
+safety_gym.egg-info/dependency_links.txt
+safety_gym.egg-info/requires.txt
+safety_gym.egg-info/top_level.txt
