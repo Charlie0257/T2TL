@@ -18,7 +18,8 @@ We recommend using Python 3.7 or Python 3.8 to run this code.
 4. Install dgl:
     - If you only reproduce the results from Transformer-encoded method, just `pip install dgl-cu113 -f https://data.dgl.ai/wheels/repo.html`
     - If you also want to reproduce the results from GNN-encoded method, we found the dgl team has not maintained dgl_cu111==0.7a210520. You can install it as follows:
-        - `cd src/utils/`
+        - download the dgl file from [google drive](https://drive.google.com/drive/folders/1Mg7wXciMgWWbeL93DG1npUD4HhI9mQHk?usp=drive_link)
+        - `unzip dgl.zip` and `unzip dgl_cu111-0.7a210520.dist-info.zip`
         - `mv -f dgl/ /home/{your_workspace_name}/anaconda3/envs/T2TL/lib/python3.7/site-packages/`
         - `mv -f dgl_cu111-0.7a210520.dist-info/ /home/{your_workspace_name}/anaconda3/envs/T2TL/lib/python3.7/site-packages/`
         
