@@ -41,12 +41,7 @@ We recommend using Python 3.7 or Python 3.8 to run this code.
 
 ## WaterWorld
 <p align="center">
-    <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/office_env.png">
-</p>
-
-## MiniCraft-like gridworld
-<p align="center">
-    <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/Mini-craft_env_all.png">
+    <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/ww_all.png">
 </p>
 
 ## ZoneEnv
@@ -59,6 +54,10 @@ We recommend using Python 3.7 or Python 3.8 to run this code.
     <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/dim_comparison_all.png">
 </p>
 
+## Interpretability via Attention
+<p align="center">
+    <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/interpretable_heads_2.png">
+</p>
 
 ## Citation
 
