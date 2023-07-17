@@ -1,5 +1,5 @@
 # T2TL
-Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning (**Under-review**)
+[**Exploiting Transformer Sparse Reward in Reinforcement Learning for Interpretable Temporal Logic Motion Planning**](https://ieeexplore.ieee.org/document/10167731)
 
 If any questions, feel free to contact: zcharlie0257@gmail.com.
 
@@ -39,7 +39,7 @@ We recommend using Python 3.7 or Python 3.8 to run this code.
 7. To train the agent with pretrained T2TL method, run:
     - `python T2TL_pretrain..py`
 
-## Office Gridworld
+## WaterWorld
 <p align="center">
     <img width="700" src="https://github.com/Charlie0257/T2TL/blob/main/README_file/office_env.png">
 </p>
@@ -63,10 +63,13 @@ We recommend using Python 3.7 or Python 3.8 to run this code.
 ## Citation
 
 ```
-@article{zhang2022exploiting,
-  title={Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning},
+@ARTICLE{10167731,
   author={Zhang, Hao and Wang, Hao and Kan, Zhen},
-  journal={arXiv preprint arXiv:2209.13220},
-  year={2022}
-}
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Exploiting Transformer in Sparse Reward Reinforcement Learning for Interpretable Temporal Logic Motion Planning}, 
+  year={2023},
+  volume={8},
+  number={8},
+  pages={4831-4838},
+  doi={10.1109/LRA.2023.3290511}}
 ``
